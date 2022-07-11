@@ -13,7 +13,6 @@ export default function Form({ adicionarTarefas }) {
     setId(id + 1);
     adicionarTarefas(itemObj);
     setTexto("");
-    // Para apagar o que tava escrito no camp de form usei DOM porque nao descobri como se faz em React
   };
 
   return (

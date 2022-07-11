@@ -4,6 +4,7 @@ import Filtrar from "../components/Filtrar";
 import Form from "../components/Form";
 import TodoItem from "../components/TodoItem";
 
+// memoriaTarefas foi feito para quando fazer a filtragem ele nao exclui o que estava visualizado
 export default function Home() {
   const [memoriaTarefas, setMemoriaTarefas] = useState([]);
   const [listaTarefas, setListaTarefas] = useState(memoriaTarefas);
